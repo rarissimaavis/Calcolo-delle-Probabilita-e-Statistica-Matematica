@@ -7,7 +7,7 @@ ris <- numeric(num_lanci)
 # Simulazione lancio dado
 for (i in 1:num_lanci)
 {
-  # Genera un numero casuale tra 1 e 6
+  # Genera un numero casuale da 1 e 6
   lancio <- sample(1:6, 1, replace = TRUE)
   
   # Salva il risultato del lancio
