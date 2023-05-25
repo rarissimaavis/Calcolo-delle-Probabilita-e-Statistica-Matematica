@@ -21,5 +21,6 @@ freq <- table(ris)
 cat <- names(freq)
 
 # Plot del diagramma a torta
+library(RColorBrewer)
 pal <- brewer.pal(6, "PuRd") 
 pie(freq, labels = cat, main = "Simulazione del lancio di un dado", col = pal)
