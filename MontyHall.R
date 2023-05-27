@@ -12,7 +12,7 @@ x <- c(1:num_porte)
 for (i in 1:num_turni)
 {
   # Inizializza le porte a 0 (senza premio)
-  porte <- rep(0,num_porte) 
+  porte <- rep(0, num_porte) 
   
   # Estrai casualmente una porta (indice) per il premio
   premio <- sample(x, 1) 
