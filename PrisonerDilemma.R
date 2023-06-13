@@ -78,7 +78,7 @@ title("Azioni P1", line = -6)
 pie(azioni_prop2, labels = cat1, col = pal)
 title("Azioni P2", line = -6)
 
-#Plot del diagramma a torta dei payoff
+# Plot del diagramma a torta dei payoff
 pie(payoff_prop, labels = cat2, col = pal)
 title("Payoff", line = -6)
 
